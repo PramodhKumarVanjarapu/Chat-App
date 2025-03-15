@@ -3,7 +3,7 @@ Basic Chat App using Web Sockets
 
 ## Table of Contents
 - [Installation](#installation)
-- [Features Implemented](#featuresimplemented)
+- [Features Implemented](#features)
 - [Plans](#plans)
 
 ## Installation
@@ -18,7 +18,7 @@ Basic Chat App using Web Sockets
  yarn install
  ```
 
-## FeaturesImplemented
+## Features
 1. Server is created Using Web Socket
 2. Users can create the room for chatting
 3. Only the users in that room can send and receive the messages
