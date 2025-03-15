@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/ws": "^8.18.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "random-string-generator": "^1.0.7",
+    "ws": "^8.18.1"
+  },
+  "scripts": {
+    "setup": "mkdir src && cd src && touch index.ts && cd ..",
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "npm run build && npm run start",
+    "clean": "rm -r dist"
+  }
+}
